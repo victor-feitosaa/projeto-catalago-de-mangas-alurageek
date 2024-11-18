@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+:root {
+    --azul : #356DFD
+    /*var(--azul)*/
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 1% 0%;
+    
+}
+
+.divTitulo--header{
+    font-weight: 200;
+    font-size: 30px;
+    font-family: "Krona one", sans-serif;
+}
+
+.logo {
+    height: 50px;
+}
+
+/*main*/
+
+.mainDiv {
+    padding: 3% 2%;
+    background-color: #efeff6;
+    display: flex;
+    gap: 1rem;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.adicionarProdutos {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 75vh;
+    width: 30%;
+    padding: 1%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0.5rem;
+}
+
+.divteste {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.tituloAdicionar {
+    font-size: 1rem;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+input {
+    padding: 3.5%;
+    border-radius: 0.5rem;
+    border: solid 2px var(--azul);
+    color: var(--azul);
+    outline-color: rgb(7, 7, 245);
+   
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+::-webkit-input-placeholder {color: rgb(201, 201, 224);}
+
+
+
+
+.inputsDiv {
+
+display: flex;
+flex-direction: column;
+gap: 2rem;
+padding-bottom: 10%;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    
+}
+
+.btn {
+    padding: 3%;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.btn--adicionar {
+    background-color: var(--azul);
+    color: #fff;
+    border: none;
+    
+
+}
+
+.btn--limpar {
+    border: solid 2px var(--azul);
+    color: var(--azul);
+    background-color: #fff;
+}
+
+
+.meusProdutos {
+    height: 80vh;
+    
+    width: 70%;
+    background-color: #fff;
+    padding: 1%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0.5rem;
+}
+
+.titulo--meusProdutos {
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 15px 0px;
+}
+
+.container--produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 2rem;
+    justify-content: space-around;
+    height: 65vh;
+    overflow-y: scroll;
+    
+}
+
+
+/*vazio*/
+.vazioDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+    img {
+        height: 600px;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+
+
+/*card*/
+
+
+.card {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 265px;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    max-height: 400px;
+    border-radius: 0.2rem;
+
+}
+
+.imgCard {
+    height: 260px;
+    border-radius: 0.2rem;
+}
+
+.nomeProduto {
+    height: 55px;
+}
+
+.card-container--info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone-excluir {
+    cursor: pointer;
+}
+
+
+@media (max-width:1240px) {
+
+    .divTitulo--header {
+        font-size: 1rem;
+
+    }
+
+    .logo {
+        height: 30px;
+    }
+
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+        gap: 3rem;
+    }
+
+    .adicionarProdutos {
+        width: 100%;
+        padding: 0% 3%;
+        height: auto;
+    }
+
+    .inputsDiv {
+        padding: 5% 0%;
+    }
+
+    .meusProdutos {
+        width: 100%;
+        padding: 0% 3%;
+    }
+    
+    .btns {
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+
+    .footer {
+        font-size: 8px;
+        padding: 4%;
+    }
+}
+
+
+.footer {
+    font-family: "Krona one", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}

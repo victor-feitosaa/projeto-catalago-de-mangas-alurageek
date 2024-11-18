@@ -1,0 +1,94 @@
+{
+  "mangas": [
+    {
+      "id": 1,
+      "titulo": "One Piece 3 em 1 - Vol 24",
+      "preco": "50.00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOLtyGn6k2MtTg7kLKT0b19Dpk6S16n6aoMQ&s"
+    },
+    {
+      "id": 2,
+      "titulo": "Naruto Gold - Vol 15",
+      "preco": "35.00",
+      "imagem": "https://a-static.mlcdn.com.br/450pxx450px/livro-naruto-gold-vol-15/livrariacafenacama/9788542604603/cf1d468ebacad4b8ea8f2e643b6bd7e6.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Attack on Titan - Vol 7",
+      "preco": "45.00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwwnompbshytwCIINx5Vncx0l8RY9KoWE5w&s"
+    },
+    {
+      "id": 4,
+      "titulo": "Dragon Ball Super - Vol 12",
+      "preco": "40.00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_632651-MLU50423078158_062022-O.webp"
+    },
+    {
+      "id": 5,
+      "titulo": "My Hero Academia - Vol 5",
+      "preco": "42.00",
+      "imagem": "https://m.media-amazon.com/images/I/61bA3expWxL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Demon Slayer - Vol 3",
+      "preco": "38.00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQVhf3QW_x17Qgpuj_h0POKwi1OjtOxHxekg&s"
+    },
+    {
+      "id": 7,
+      "titulo": "Tokyo Ghoul - Vol 8",
+      "preco": "36.00",
+      "imagem": "https://m.media-amazon.com/images/I/71tyZyJ23pL._UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Fullmetal Alchemist - Vol 11",
+      "preco": "44.00",
+      "imagem": "https://m.media-amazon.com/images/I/61dGfftfjCL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "Bleach 3 em 1 - Vol 10",
+      "preco": "55.00",
+      "imagem": "https://d14d9vp3wdof84.cloudfront.net/image/589816272436/image_bsp7ngr69p3mlco1jt4out053t/-S897-FWEBP"
+    },
+    {
+      "id": 10,
+      "titulo": "Hunter x Hunter - Vol 20",
+      "preco": "37.00",
+      "imagem": "https://m.media-amazon.com/images/I/61EQq6BKhsL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 11,
+      "titulo": "Fairy Tail - Vol 22",
+      "preco": "39.00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvSvbgRVgVjIBzrJlvk5EwcEVyiIfShUtOug&s"
+    },
+    {
+      "id": 12,
+      "titulo": "Death Note Black Edition - Vol 2",
+      "preco": "60.00",
+      "imagem": "https://www.jbchost.com.br/editorajbc/wp-content/uploads/2013/07/dn-black-edition-02.jpg"
+    },
+    {
+      "id": 13,
+      "titulo": "Sword Art Online - Vol 4",
+      "preco": "41.00",
+      "imagem": "https://m.media-amazon.com/images/I/81Q9pDKLERL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 14,
+      "titulo": "Vinland Saga - Vol 9",
+      "preco": "65.00",
+      "imagem": "https://m.media-amazon.com/images/I/71PJpd+UnzL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 15,
+      "titulo": "The Seven Deadly Sins - Vol 18",
+      "preco": "43.00",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyMdpW3vjZH11CeiLPZWiqv1rvf23ov4RI3w&s"
+    }
+  ]
+}

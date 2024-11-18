@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="headerDiv">
+            <div>
+                <img class="logo" src="images/straw-hat-pirates-logo-CE30ADBE3A-seeklogo.com.png" alt="logo">
+            </div>
+
+            <div class="divTitulo--header">
+                <h4>Mugiwara store</h1>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="mainDiv">
+            <div class="adicionarProdutos">
+                
+                <div class="divteste">
+
+                    <div class="tituloAdicionar">
+                        <h2>Adicionar produtos</h2>
+                    </div>
+
+                    <div class="inputs">
+                        <form action="" data-formulario>
+                            <div class="inputsDiv">
+                                <div class="input-label">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" placeholder="Ex: One piece 3 em 1 - Vol 1" data-nome required>
+                                </div>
+
+
+                                <div class="input-label">
+                                    <label for="preco">Preço</label>
+                                    <input type="text" placeholder="Ex: 29.99" data-preco required>  
+                                </div>
+             
+                                <div class="input-label">
+                                    <label for="imagem">Imagem</label>
+                                    <input type="text" placeholder="Ex: url:https://nomedosite.com/images?imagemquedesejacolocar " data-imagem required>                                    
+                                </div>
+
+                            </div>
+
+
+                    <div class="btns">
+                        <button class="btn--adicionar btn" type="submit">ADICIONAR</button>
+
+                        <button class="btn--limpar btn" data-btn-limpar>LIMPAR</button>
+                    </div> 
+
+
+                        </form>
+                    </div>
+                   
+
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="meusProdutos">
+
+                <div class="titulo--meusProdutos">
+                    <h2>Meus produtos:</h2>
+                </div>
+
+                <div class="container--produtos" data-container-mangas>
+
+                    <!-- <div class="vazio">
+                        <div class="vazioDiv">
+                            <img src="images/Empty-amico.png"
+                            " alt="">
+                            <p>Nenhum produto disponível</p>
+                        </div>
+                    </div> -->
+
+
+                    <!-- <div class="card">
+                        <img class="imgCard" src="" alt="">
+                        <div class="card-container--info">
+                            <div class="nomeProduto">
+                                <p id="nomeApi">One piece 3 em 1 - Vol 15</p>
+                            </div>
+                            
+                            <div class="card-container--value">
+                                
+                                <p class="precoApi">Preço: R$XX.XX</p>
+                                
+                                <i class="fa-solid fa-trash-can " style="color: white;"></i>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">Desenvolvido por Victor Feitosa</div>
+    </footer>
+
+    <script src="/js/conexaoApi.js" type="module"></script>
+    <script src="./js/mostrarMangas.js" type="module"></script>
+    <script src="/js/criaProduto.js" type="module"></script>
+</body>
+</html>
